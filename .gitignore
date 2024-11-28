@@ -1,0 +1,22 @@
+# Ignore object files (.o)
+*.o
+
+# Ignore dependency files (.d)
+*.d
+
+# Ignore temporary or error log files (such as *.core, *~)
+*~ 
+*.core
+
+# Ignore object and test list files in the tests directory
+tests/*.obj
+tests/*.lst
+
+# Ignore files specific to the operating system or IDE (if applicable)
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Ignore Makefile compilation files
+Makefile~
