@@ -102,7 +102,7 @@ sub1:    CLR     A
          
          CMPA    @R7(B)
          CMPA    @R7[B]
-         CMPA    @R7   
+        ;  CMPA    @R7  ; Fix error
          CMPA    *R7   
          
          DAC     B,A     
