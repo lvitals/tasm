@@ -1047,8 +1047,9 @@ char    *pn)    /* part number */
     fp_tab = fopen( tab_filename, "r");
     if(fp_tab == NULL)
     {
-        sprintf(errbuf,"tasm: table file open error on %.128s\n",
-               tab_filename);
+        sprintf(errbuf,"tasm: table file open error on %.128s\n", tab_filename);
+        strcat(errbuf, "Please set the TASMTABS environment variable to point to the directory containing the table file.\n");
+
         errprt(errbuf);
         tasmexit(EXIT_FILEACCESS);
     }

@@ -20,3 +20,5 @@ tests/*.lst
 
 # Ignore Makefile compilation files
 Makefile~
+
+tasm

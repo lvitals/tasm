@@ -46,4 +46,20 @@ tests: $(TARGET)
 	./$(TARGET) -70 tests/test70.asm && \
 	./$(TARGET) -96 -x tests/test96.asm
 
-.PHONY: all clean tests
+
+
+# Define environment variable and path to add to shell config files
+TASMTABS=$(HOME)/.tasm/tables
+BIN_PATH=$(HOME)/.tasm/bin
+
+# Rule for installation
+install: $(TARGET)
+	@echo "Installing on system..."
+	@sh ./install.sh
+
+# Rule for uninstallation
+uninstall: $(TARGET)
+	@echo "Uninstalling on system..."
+	@sh ./uninstall.sh
+	
+.PHONY: all clean tests install uninstall
