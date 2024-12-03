@@ -5,7 +5,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; TASM  test file
 ; Test all instructions and addressing modes.
-; Processor: Z80
+; Processor: Zilog Z80
 ;
 ; SEPT. 16,1987
 ; CARL A. WALL

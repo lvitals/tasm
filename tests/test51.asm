@@ -5,7 +5,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; TASM  test file
 ; Test all instructions and addressing modes.
-; Processor: 8051
+; Processor: Intel 8051
 ;
 
 

@@ -5,7 +5,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; TASM  test file
 ; Test all instructions and addressing modes.
-; Processor: 8080/8085
+; Processor: Intel 8080/8085
 ;
 
 

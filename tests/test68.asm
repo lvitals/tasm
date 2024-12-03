@@ -5,7 +5,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; TASM  test file
 ; Test all instructions and addressing modes.
-; Processor:  6801/6803/68HC11
+; Processor:  Motorola 6801/6803/68HC11
 ;
 
 

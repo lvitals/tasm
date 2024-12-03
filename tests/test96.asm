@@ -5,7 +5,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; TASM  test file
 ; Test all instructions and addressing modes.
-; Processor: 8096/8XC196KC
+; Processor: Intel 8096/8XC196KC
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
 
