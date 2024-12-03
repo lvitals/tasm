@@ -29,7 +29,7 @@ $(TARGET): $(OBJECTS)
 
 # A rule to clean up
 clean:
-	rm -f $(TARGET) $(OBJECTS) $(OBJECTS:.o=.d) *~ *.core core tests/*.obj tests/*.lst
+	rm -f $(TARGET) $(OBJECTS) $(OBJECTS:.o=.d) *~ *.core core tests/*.obj tests/*.lst tests/*.sym
 
 # Rule to run tests after compiling
 tests: $(TARGET)
@@ -58,7 +58,7 @@ install: $(TARGET)
 	@sh ./install.sh
 
 # Rule for uninstallation
-uninstall: $(TARGET)
+uninstall:
 	@echo "Uninstalling on system..."
 	@sh ./uninstall.sh
 	

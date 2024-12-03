@@ -11,6 +11,7 @@
 # Ignore object and test list files in the tests directory
 tests/*.obj
 tests/*.lst
+tests/*.sym
 
 # Ignore files specific to the operating system or IDE (if applicable)
 .DS_Store
