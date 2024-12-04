@@ -39,7 +39,7 @@ done
 
 # Source the shell configuration files to apply changes
 echo "Applying changes to the current shell session..."
-export PATH="$PATH:$HOME.tasm/bin"
+export PATH="$PATH:$HOME/.tasm/bin"
 export TASMTABS="$HOME/.tasm/tables"
 
 # Inform the user that the installation is complete
